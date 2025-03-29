@@ -1,6 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
+import { FaJava } from "react-icons/fa6";
 import { TbBrandCpp } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -53,7 +54,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4 ">
-              <SiMongodb className="text-7xl text-green-400 "/>
+              <FaJava className="text-7xl text-blue-400 "/>
             </motion.div>
             <motion.div
             variants={iconVariants(6)}
