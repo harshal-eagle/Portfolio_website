@@ -2,7 +2,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { FaJava } from "react-icons/fa6";
-import { TbBrandCpp } from "react-icons/tb";
+import { SiSpringboot } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { animate, motion, transform } from "framer-motion"
@@ -61,7 +61,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4 ">
-              <TbBrandCpp className="text-7xl text-red-400 "/>
+              <SiSpringboot className="text-7xl text-red-400 "/>
             </motion.div>
             <motion.div
             variants={iconVariants(4)}
